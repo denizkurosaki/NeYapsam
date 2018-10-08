@@ -2,7 +2,8 @@
 
 ### Course:  BIM423 - Software Engineering
 ### Project: Ne Yapsam ?
-#### Gruoup Members: -Fırat Deniz Ardahan
+#### Gruup Members: 
+                -Fırat Deniz Ardahan
                 -Ömer Kaya
                 -Zelimhan Önlü
                 -Ahmet Kurt
