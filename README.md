@@ -16,4 +16,4 @@ Gruoup Members: -Fırat Deniz Ardahan
                                 
                                 
                  In this project; our team's goal is that making an useful application to help you on preparing dishes at home. 
-           Application will follow your food stock at home, and will give you a suggestion at 'What to make for meal?'.      
+           Application will follow your food stock at home, and will give you a suggestion at 'What to make for meal?'..     
