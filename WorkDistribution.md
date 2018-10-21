@@ -1,4 +1,4 @@
-*** Work Distribution ***
+# Work Distribution 
 
 * Ömer Kaya : Code by using Xamarin
 * Furat Deniz Ardahan : Code by using Xamarin
