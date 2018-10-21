@@ -1,4 +1,4 @@
-** TO DO LIST
+*** TO DO LIST
 
 * Week - 1
 Specify a project and think about requirements
