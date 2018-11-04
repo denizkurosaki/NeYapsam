@@ -1,9 +1,9 @@
 # Work Distribution 
 
-* Ömer Kaya : Code by using Xamarin
-* Furat Deniz Ardahan : Code by using Xamarin
-* Ahmet Kurt : Design a website and Work for database
-* Zalimhan Önlü : Work for database
-* Magomed Salakh Lorsanov : Enter datas to database
-* Cihan Mutlu : Enter Datas to database
-* Soner Ceylan : Design proper graphics for application
+* 1-Ömer Kaya : Xamarin - UI, Xamarin - Development
+* 2-Furat Deniz Ardahan : Xamarin - Development
+* 3-Ahmet Kurt : Design a website, Database - UI, Prototype Database, Prototype Application, Database - Development
+* 4-Zalimhan Önlü : Database - Development, Prototype Database, Prototype Application
+* 5-Magomed Salakh Lorsanov : Database - Development, Prototype Database, Prototype Application
+* 6-Cihan Mutlu : Enter Datas to database
+* 7-Soner Ceylan : Database - Development, Design proper graphics for application
