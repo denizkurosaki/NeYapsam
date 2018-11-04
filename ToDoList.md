@@ -1,31 +1,39 @@
 # TO DO LIST 
 
 ## Week - 1 :
-* Specify a project and think about requirements
+* Join a group for project
 
 ## Week - 2 :
+* Topic specification
 * Design a website
 
 ## Week - 3 :
-* Requirement Analysis and EER Diagram for database
+* Requirement Analysis for Database
+* Conceptual Database Design 
 
 ## Week - 4 :
-* Relational Schema and prototype application
+* Logical Database Design
 
 ## Week - 5 :
-* Give last look to database design
+* Prototype Database
+* Prototype Application
 
 ## Week - 6 :
-* Enter datas to the database and start coding by using Xamarin which provides platform independenence 
+* Database - UI
+* Xamarin - UI
 
 ## Week - 7 :
-* Create some useful graphic for application
+* Database - Development
+* Xamarin - Development
 
 ## Week - 8 :
-* Bug fixes
+* Database - Development
+* Xamarin - Development
 
 ## Week - 9 :
-* Test Application
+* Xamarin - Development
+* Testing
 
 ## Week - 10 :
-* Finish the project
+* Testing
+* Bug Fixes
