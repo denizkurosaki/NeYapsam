@@ -65,13 +65,13 @@ public class Food {
             Scanner sc = new Scanner(System.in);
             System.out.println("Please enter amount of your ingredients");
             int amount = sc.nextInt();
-            String[] arr = new String[amount + 1];
+            String[] arr = new String[amount];
             System.out.println("Please enter your ingredients's names");
             for(int i = 0; i < arr.length; i++) {
-                arr[i] = sc.nextLine();
+                arr[i] = sc.next();
             }
             
-            ResultSet rs = stmt.executeQuery("select * from Food");
+            ResultSet rs = stmt.executeQuery("select name from Food where Ingredients.name = '" + arr[0] + " and " + arr[1] + " and " + arr[2]);
             System.out.println("fid \t f_name");
             while (rs.next()) {
                 System.out.println(rs.getString(1) + "\t" + rs.getString(2));
