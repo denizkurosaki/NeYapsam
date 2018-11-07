@@ -20,6 +20,8 @@
 
 ## Week - 6 :
 * Database - UI
+* Requirement Analysis for Application
+* Use Cases for Apllication
 * Xamarin - UI
 
 ## Week - 7 :
@@ -29,6 +31,7 @@
 ## Week - 8 :
 * Database - Development
 * Xamarin - Development
+* Graphic Design
 
 ## Week - 9 :
 * Xamarin - Development
