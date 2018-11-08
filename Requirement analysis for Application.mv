@@ -1,0 +1,14 @@
+--- Requirement Analysis for Application ---
+
+A.User Interface
+  1.Main Page
+  2.Menus
+    a.Search
+    b.Stock Editing
+    c.Ingredients
+    d.Local Shops
+  3.Profile
+    a.User Info
+    b.Stock
+    c.Account Settings
+
