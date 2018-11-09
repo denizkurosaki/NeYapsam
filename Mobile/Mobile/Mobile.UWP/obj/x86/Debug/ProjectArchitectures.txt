@@ -1,0 +1,1 @@
+C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\Mobile.UWP.csproj;x86
