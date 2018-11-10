@@ -640,8 +640,53 @@
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\Burger.png">
+      <PackagePath>Burger.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\Profile.png">
+      <PackagePath>Profile.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\Settings.png">
+      <PackagePath>Settings.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\Resources\Icons\ArrowBack.png">
+      <PackagePath>Resources\Icons\ArrowBack.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\Resources\Icons\Check.png">
+      <PackagePath>Resources\Icons\Check.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\Resources\Icons\ArrowRight.png">
+      <PackagePath>Resources\Icons\ArrowRight.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\Resources\Icons\Close.png">
+      <PackagePath>Resources\Icons\Close.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\Resources\Icons\Profile.png">
+      <PackagePath>Resources\Icons\Profile.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\Resources\Icons\Info.png">
+      <PackagePath>Resources\Icons\Info.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\Resources\Icons\Menu.png">
+      <PackagePath>Resources\Icons\Menu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\Resources\Icons\Search.png">
+      <PackagePath>Resources\Icons\Search.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\Resources\Icons\Settings.png">
+      <PackagePath>Resources\Icons\Settings.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\Resources\Icons\ShoppingCart.png">
+      <PackagePath>Resources\Icons\ShoppingCart.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\Resources\Images\Burger.png">
+      <PackagePath>Resources\Images\Burger.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\Resources\Font\clementine sketch.ttf">
+      <PackagePath>Resources\Font\clementine sketch.ttf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\bin\x86\Debug\Mobile.UWP.xr.xml">
       <PackagePath>Mobile.UWP.xr.xml</PackagePath>

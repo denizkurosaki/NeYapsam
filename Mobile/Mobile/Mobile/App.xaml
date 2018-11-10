@@ -3,6 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Mobile.App">
     <Application.Resources>
-
+        <Style Class="CellImage" TargetType="Image">
+            <Setter Property="WidthRequest" Value="100" />
+            <Setter Property="HeightRequest" Value="100" />
+        </Style>
     </Application.Resources>
 </Application>

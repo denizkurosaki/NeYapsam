@@ -1,5 +1,6 @@
 ﻿using System;
 using Xamarin.Forms;
+using Mobile.View;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
@@ -11,7 +12,7 @@ namespace Mobile
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new YemekListesi());
         }
 
         protected override void OnStart()

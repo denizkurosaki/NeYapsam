@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Mobile.UWP.MainPage.xaml", "MainPage.xaml", typeof(global::Mobile.MainPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Mobile.Droid.NavigationBar.xaml", "NavigationBar.xaml", typeof(global::Mobile.MainPage))]
 
 namespace Mobile {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Projects\\NeYapsam\\Mobile\\Mobile\\Mobile\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Projects\\NeYapsam\\Mobile\\Mobile\\Mobile\\NavigationBar.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

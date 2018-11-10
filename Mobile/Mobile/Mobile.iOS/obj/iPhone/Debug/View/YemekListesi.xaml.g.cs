@@ -8,20 +8,20 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Mobile.UWP.View.Settings.xaml", "View/Settings.xaml", typeof(global::Mobile.View.Settings))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Mobile.iOS.View.YemekListesi.xaml", "View/YemekListesi.xaml", typeof(global::Mobile.View.YemekListesi))]
 
 namespace Mobile.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Projects\\NeYapsam\\Mobile\\Mobile\\Mobile\\View\\Settings.xaml")]
-    public partial class Settings : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Projects\\NeYapsam\\Mobile\\Mobile\\Mobile\\View\\YemekListesi.xaml")]
+    public partial class YemekListesi : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.ListView MyListView;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Settings));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(YemekListesi));
             MyListView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "MyListView");
         }
     }

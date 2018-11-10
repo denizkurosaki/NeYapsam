@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobile.View.YemekListesi">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Profile" Order="Primary">
+            <ToolbarItem.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="UWP" Value="Profile.png"/>
+                    <On Platform="Android" Value="Profile.png"/>
+                </OnPlatform>
+            </ToolbarItem.Icon>
+        </ToolbarItem>
+        <ToolbarItem Text="Settings" Order="Primary">
+            <ToolbarItem.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="UWP" Value="Settings.png"/>
+                    <On Platform="Android" Value="Settings.png"/>
+                </OnPlatform>
+            </ToolbarItem.Icon>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <ScrollView Padding="10, 0, 10, 0">
+        <ListView x:Name="MyListView"
+                ItemsSource="{Binding Items}"
+                ItemTapped="Handle_ItemTapped"
+                CachingStrategy="RecycleElement">
+
+            <!--Built in Cells
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding .}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            -->
+
+            
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout HorizontalOptions="CenterAndExpand" Padding="20" HeightRequest="200" Orientation="Horizontal">
+                        <StackLayout>
+                            <Image Source="Burger.png" class="CellImage" />
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Vertical" HeightRequest="100">
+                            <Label VerticalOptions="Center" VerticalTextAlignment="Center" Text="{Binding .}" FontSize="Large"/>
+                            <Label VerticalTextAlignment="End" Text="text2" FontSize="Small"/>
+                        </StackLayout>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+        
+        </ListView>
+    </ScrollView>
+</ContentPage>

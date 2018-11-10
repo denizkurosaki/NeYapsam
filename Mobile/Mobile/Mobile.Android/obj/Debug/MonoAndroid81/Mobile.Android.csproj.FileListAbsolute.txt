@@ -5,8 +5,6 @@ C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\bin\Debug\com.companyname.Mobi
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\Mobile.Android.csprojAssemblyReference.cache
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\res.flag
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\App.xaml.g.cs
-C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\MainPage.xaml.g.cs
-C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\View\Settings.xaml.g.cs
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\Mobile.Android.csproj.CoreCompileInputs.cache
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\XamlC.stamp
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\Mobile.Android.dll
@@ -96,6 +94,7 @@ C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\androi
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\android\assets\System.Xml.pdb
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\android\assets\Xamarin.Forms.Core.pdb
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\View\YemekListesi.xaml.g.cs
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\linksrc\Mobile.Android.pdb
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\linksrc\FormsViewGroup.dll.mdb
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
