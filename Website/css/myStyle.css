@@ -114,20 +114,28 @@ footer{
 }
 
 article#main-col{
-  float:left;
-  width:65%;
+	float:left;
+	width:65%;
 }
 
 aside#sidebar{
-  float:right;
-  width:30%;
-  margin-top:10px;
+	float:right;
+	width:30%;
+	margin-top:10px;
 }
 
 .dark{
-  padding:15px;
-  background:orange;
-  color:white;
-  margin-top:10px;
-  margin-bottom:10px;
+	padding:15px;
+  	background:orange;
+  	color:white;
+  	margin-top:10px;
+  	margin-bottom:10px;
+}
+
+#main-col{
+	padding:15px;
+	background:purple;
+	margin-top:10px;
+	margin-bottom:10px;
+	color :white;
 }
