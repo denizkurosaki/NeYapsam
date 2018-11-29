@@ -71,7 +71,7 @@ public class Food {
                 arr[i] = sc.next();
             }
             
-            ResultSet rs = stmt.executeQuery("select name from Food where Ingredients.name = '" + arr[0] + " and " + arr[1] + " and " + arr[2]);
+            ResultSet rs = stmt.executeQuery("select f.name from Food as f,Ingredient as i where i.name = '" + arr[0] + " and " + arr[1] + " and " + arr[2]);
             System.out.println("fid \t f_name");
             while (rs.next()) {
                 System.out.println(rs.getString(1));
