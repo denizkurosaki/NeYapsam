@@ -49,10 +49,9 @@ C:\Projects\NeYapsam\Mobile\Mobile\Mobile.iOS\obj\iPhone\Debug\coremlc\_BundleRe
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.iOS\obj\iPhone\Debug\optimized\
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.iOS\obj\iPhone\Debug\Mobile.iOS.csprojAssemblyReference.cache
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.iOS\obj\iPhone\Debug\App.xaml.g.cs
-C:\Projects\NeYapsam\Mobile\Mobile\Mobile.iOS\obj\iPhone\Debug\MainPage.xaml.g.cs
-C:\Projects\NeYapsam\Mobile\Mobile\Mobile.iOS\obj\iPhone\Debug\View\Settings.xaml.g.cs
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.iOS\obj\iPhone\Debug\Mobile.iOS.csproj.CoreCompileInputs.cache
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.iOS\obj\iPhone\Debug\XamlC.stamp
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.iOS\obj\iPhone\Debug\Mobile.iOS.csproj.CopyComplete
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.iOS\obj\iPhone\Debug\Mobile.iOS.exe
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.iOS\obj\iPhone\Debug\Mobile.iOS.pdb
+C:\Projects\NeYapsam\Mobile\Mobile\Mobile.iOS\obj\iPhone\Debug\View\YemekListesi.xaml.g.cs

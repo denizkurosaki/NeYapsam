@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-10T12:03:07.039</Modified>
+      <Modified>2018-11-21T11:40:16.602</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\bin\x86\Debug\Mobile.UWP.exe">
       <PackagePath>entrypoint\Mobile.UWP.exe</PackagePath>
-      <Modified>2018-11-10T12:03:05.099</Modified>
+      <Modified>2018-11-21T11:40:12.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fomer\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -916,11 +916,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-11-10T12:03:02.824</Modified>
+      <Modified>2018-11-21T11:40:09.829</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-11-10T12:03:02.826</Modified>
+      <Modified>2018-11-21T11:40:09.831</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -977,11 +977,11 @@
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-10T11:59:15.046</Modified>
+      <Modified>2018-11-21T11:40:14.411</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\bin\x86\Debug\Core\Mobile.UWP.exe">
       <PackagePath>Mobile.UWP.exe</PackagePath>
-      <Modified>2018-11-10T12:03:07.018</Modified>
+      <Modified>2018-11-21T11:40:16.576</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

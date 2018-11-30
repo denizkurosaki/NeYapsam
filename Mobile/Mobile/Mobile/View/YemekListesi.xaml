@@ -39,14 +39,14 @@
             
         <ListView.ItemTemplate>
             <DataTemplate>
-                <ViewCell>
-                    <StackLayout HorizontalOptions="CenterAndExpand" Padding="20" HeightRequest="200" Orientation="Horizontal">
+                <ViewCell Height="40">
+                    <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
                         <StackLayout>
                             <Image Source="Burger.png" class="CellImage" />
                         </StackLayout>
-                        <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Vertical" HeightRequest="100">
-                            <Label VerticalOptions="Center" VerticalTextAlignment="Center" Text="{Binding .}" FontSize="Large"/>
-                            <Label VerticalTextAlignment="End" Text="text2" FontSize="Small"/>
+                        <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+                            <Label HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Start" Text="{Binding .}" FontSize="Large"/>
+                            <Label HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" Text="text2" FontSize="Small"/>
                         </StackLayout>
                     </StackLayout>
                 </ViewCell>

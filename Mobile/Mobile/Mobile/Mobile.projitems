@@ -25,6 +25,7 @@
     <Folder Include="$(MSBuildThisFileDirectory)Controller\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Burger.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\Font\clementine sketch.ttf" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\Icons\ArrowBack.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\Icons\Check.png" />
