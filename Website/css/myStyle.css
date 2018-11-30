@@ -139,3 +139,8 @@ aside#sidebar{
 	margin-bottom:10px;
 	color :white;
 }
+
+section div div img
+{
+	border-radius: 50%;
+}
