@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobile.View.LoginPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Image HorizontalOptions="Center" Source="Profile.png"/>
+            <Grid Margin="20,0,20,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Username:" Grid.Row="0" Grid.Column="0"/>
+                <Entry x:Name="usernameEntry" Grid.Row="0" Grid.Column="1" Placeholder="Username" />
+                <Label Text="Password:" Grid.Row="1" Grid.Column="0" />
+                <Entry x:Name="passwordEntry" Grid.Row="1" Grid.Column="1" Placeholder="Password" IsPassword="true" />
+            </Grid>
+            <StackLayout HorizontalOptions="Center">
+                <Button FontSize="Medium" HorizontalOptions="FillAndExpand" Text="LOGIN" Clicked="LoginEvent" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

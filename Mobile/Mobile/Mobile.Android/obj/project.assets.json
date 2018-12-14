@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v8.1": {
+      "Parse/1.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid/Parse.Android.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid/Parse.Android.dll": {}
+        }
+      },
       "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
         "type": "package",
         "dependencies": {
@@ -344,6 +353,38 @@
     }
   },
   "libraries": {
+    "Parse/1.7.0": {
+      "sha512": "qdbjZysZITyVAlbXgaVwc2qrbLJMB5RlSB31pwL7nsKuIlSeiFAMrFZ1rzGZD44Tq9TWL/A6ZZqdmtq1XHr9eA==",
+      "type": "package",
+      "path": "parse/1.7.0",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid/Parse.Android.dll",
+        "lib/MonoAndroid/Parse.Android.xml",
+        "lib/MonoTouch10/Parse.iOS.dll",
+        "lib/MonoTouch10/Parse.iOS.xml",
+        "lib/Xamarin.iOS10/Parse.iOS.dll",
+        "lib/Xamarin.iOS10/Parse.iOS.xml",
+        "lib/net45/Parse.NetFx45.dll",
+        "lib/net45/Parse.NetFx45.xml",
+        "lib/net45/Parse.dll",
+        "lib/net45/Parse.xml",
+        "lib/netcore45/Parse.WinRT.dll",
+        "lib/netcore45/Parse.WinRT.xml",
+        "lib/netcore45/Parse.dll",
+        "lib/netcore45/Parse.xml",
+        "lib/wp8/Parse.Phone.dll",
+        "lib/wp8/Parse.Phone.xml",
+        "lib/wp8/Parse.dll",
+        "lib/wp8/Parse.xml",
+        "lib/wpa81/Parse.WinRT.dll",
+        "lib/wpa81/Parse.WinRT.xml",
+        "lib/wpa81/Parse.dll",
+        "lib/wpa81/Parse.xml",
+        "parse.1.7.0.nupkg.sha512",
+        "parse.nuspec"
+      ]
+    },
     "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
       "sha512": "GIz8xfnOLJH5yWC0ocIR80hJlYQ2Lz2HQKjW2/vi0rxYXR6nF/D4aOFlTx1PIA6A9FLgFRrajSJyCfx460qycw==",
       "type": "package",
@@ -753,6 +794,7 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
+      "Parse >= 1.7.0",
       "Xamarin.Android.Support.Design >= 27.0.2.1",
       "Xamarin.Android.Support.v4 >= 27.0.2.1",
       "Xamarin.Android.Support.v7.AppCompat >= 27.0.2.1",
@@ -794,6 +836,10 @@
     "frameworks": {
       "monoandroid81": {
         "dependencies": {
+          "Parse": {
+            "target": "Package",
+            "version": "[1.7.0, )"
+          },
           "Xamarin.Android.Support.Design": {
             "target": "Package",
             "version": "[27.0.2.1, )"

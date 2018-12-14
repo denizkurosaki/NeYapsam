@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Parse/1.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Parse.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Parse.iOS.dll": {}
+        }
+      },
       "Xamarin.Forms/3.1.0.697729": {
         "type": "package",
         "compile": {
@@ -127,6 +136,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Parse/1.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Parse.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Parse.iOS.dll": {}
+        }
+      },
       "Xamarin.Forms/3.1.0.697729": {
         "type": "package",
         "compile": {
@@ -252,6 +270,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Parse/1.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Parse.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Parse.iOS.dll": {}
+        }
+      },
       "Xamarin.Forms/3.1.0.697729": {
         "type": "package",
         "compile": {
@@ -377,6 +404,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Parse/1.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Parse.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Parse.iOS.dll": {}
+        }
+      },
       "Xamarin.Forms/3.1.0.697729": {
         "type": "package",
         "compile": {
@@ -503,6 +539,38 @@
     }
   },
   "libraries": {
+    "Parse/1.7.0": {
+      "sha512": "qdbjZysZITyVAlbXgaVwc2qrbLJMB5RlSB31pwL7nsKuIlSeiFAMrFZ1rzGZD44Tq9TWL/A6ZZqdmtq1XHr9eA==",
+      "type": "package",
+      "path": "parse/1.7.0",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid/Parse.Android.dll",
+        "lib/MonoAndroid/Parse.Android.xml",
+        "lib/MonoTouch10/Parse.iOS.dll",
+        "lib/MonoTouch10/Parse.iOS.xml",
+        "lib/Xamarin.iOS10/Parse.iOS.dll",
+        "lib/Xamarin.iOS10/Parse.iOS.xml",
+        "lib/net45/Parse.NetFx45.dll",
+        "lib/net45/Parse.NetFx45.xml",
+        "lib/net45/Parse.dll",
+        "lib/net45/Parse.xml",
+        "lib/netcore45/Parse.WinRT.dll",
+        "lib/netcore45/Parse.WinRT.xml",
+        "lib/netcore45/Parse.dll",
+        "lib/netcore45/Parse.xml",
+        "lib/wp8/Parse.Phone.dll",
+        "lib/wp8/Parse.Phone.xml",
+        "lib/wp8/Parse.dll",
+        "lib/wp8/Parse.xml",
+        "lib/wpa81/Parse.WinRT.dll",
+        "lib/wpa81/Parse.WinRT.xml",
+        "lib/wpa81/Parse.dll",
+        "lib/wpa81/Parse.xml",
+        "parse.1.7.0.nupkg.sha512",
+        "parse.nuspec"
+      ]
+    },
     "Xamarin.Forms/3.1.0.697729": {
       "sha512": "oYfHpCY9i9wN4vLllsIhzDZY5iOCUtZ3RHxID1fiXOcf7yL9UA16NUsI8opoNmpv1Ru2lTGG9ZKKT1sYS6DLjA==",
       "type": "package",
@@ -657,6 +725,7 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "Parse >= 1.7.0",
       "Xamarin.Forms >= 3.1.0.697729"
     ]
   },
@@ -693,6 +762,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Parse": {
+            "target": "Package",
+            "version": "[1.7.0, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[3.1.0.697729, )"

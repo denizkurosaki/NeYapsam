@@ -1,4 +1,5 @@
 ﻿
+using Mobile.Model;
 using System.Collections.ObjectModel;
 
 using Xamarin.Forms;
@@ -15,14 +16,9 @@ namespace Mobile.View
         {
             InitializeComponent();
 
-            Items = new ObservableCollection<string>
-            {
-                "Item 1",
-                "Item 2",
-                "Item 3",
-                "Item 4",
-                "Item 5"
-            };
+            Items = new ObservableCollection<string>();
+
+            Food.FoodNames.FindAll(e => true).ForEach(e => Items.Add(e));
 			
 			MyListView.ItemsSource = Items;
         }
@@ -36,6 +32,18 @@ namespace Mobile.View
 
             //Deselect Item
             ((ListView)sender).SelectedItem = null;
+        }
+
+        private async void ProfileEvent(object sender, System.EventArgs e)
+        {
+            Navigation.InsertPageBefore(new LoginPage(),this);
+            await Navigation.PopAsync();
+        }
+
+        private async void SettingsEvent(object sender, System.EventArgs e)
+        {
+            Navigation.InsertPageBefore(new Settings(), this);
+            await Navigation.PopAsync();
         }
     }
 }

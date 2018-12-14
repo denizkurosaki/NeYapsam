@@ -73,6 +73,10 @@ C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\linksr
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\linksrc\Mono.Security.pdb
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\linksrc\FormsViewGroup.dll.mdb
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\View\LoginPage.xaml.g.cs
+C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\View\User.xaml.g.cs
+C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\View\SignIn.xaml.g.cs
+C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\View\Settings.xaml.g.cs
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\android\assets\FormsViewGroup.dll.mdb
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\android\assets\Mobile.Android.pdb

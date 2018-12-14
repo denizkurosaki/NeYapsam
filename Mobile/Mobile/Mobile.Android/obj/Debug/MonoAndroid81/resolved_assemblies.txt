@@ -3,6 +3,7 @@ C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\androi
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\android\assets\Java.Interop.dll
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\android\assets\Mono.Android.dll
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\android\assets\mscorlib.dll
+C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\android\assets\Parse.Android.dll
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\android\assets\System.Core.dll
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\android\assets\System.dll
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\android\assets\System.Xml.dll

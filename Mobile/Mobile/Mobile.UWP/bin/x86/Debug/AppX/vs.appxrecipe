@@ -31,13 +31,21 @@
     <AppXManifest Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-21T11:40:16.602</Modified>
+      <Modified>2018-12-14T20:10:08.086</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\bin\x86\Debug\Mobile.UWP.exe">
       <PackagePath>entrypoint\Mobile.UWP.exe</PackagePath>
-      <Modified>2018-11-21T11:40:12.118</Modified>
+      <Modified>2018-12-14T20:10:03.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fomer\.nuget\packages\parse\1.7.0\lib\netcore45\Parse.WinRT.dll">
+      <PackagePath>Parse.WinRT.dll</PackagePath>
+      <Modified>2016-01-08T11:37:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fomer\.nuget\packages\parse\1.7.0\lib\netcore45\Parse.dll">
+      <PackagePath>Parse.dll</PackagePath>
+      <Modified>2016-01-08T11:37:32.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fomer\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -858,57 +866,9 @@
       <PackagePath>Settings.png</PackagePath>
       <Modified>2018-11-09T09:38:30.859</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\Resources\Icons\ArrowBack.png">
-      <PackagePath>Resources\Icons\ArrowBack.png</PackagePath>
-      <Modified>2018-11-09T09:04:18.685</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\Resources\Icons\Check.png">
-      <PackagePath>Resources\Icons\Check.png</PackagePath>
-      <Modified>2018-11-09T09:04:03.594</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\Resources\Icons\ArrowRight.png">
-      <PackagePath>Resources\Icons\ArrowRight.png</PackagePath>
-      <Modified>2018-11-09T09:05:28.166</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\Resources\Icons\Close.png">
-      <PackagePath>Resources\Icons\Close.png</PackagePath>
-      <Modified>2018-11-09T09:05:05.763</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\Resources\Icons\Profile.png">
-      <PackagePath>Resources\Icons\Profile.png</PackagePath>
-      <Modified>2018-11-10T10:31:48.600</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\Resources\Icons\Info.png">
-      <PackagePath>Resources\Icons\Info.png</PackagePath>
-      <Modified>2018-11-09T09:04:41.123</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\Resources\Icons\Menu.png">
-      <PackagePath>Resources\Icons\Menu.png</PackagePath>
-      <Modified>2018-11-09T09:03:12.587</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\Resources\Icons\Search.png">
-      <PackagePath>Resources\Icons\Search.png</PackagePath>
-      <Modified>2018-11-09T09:04:33.582</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\Resources\Icons\Settings.png">
-      <PackagePath>Resources\Icons\Settings.png</PackagePath>
-      <Modified>2018-11-09T09:03:21.106</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\Resources\Icons\ShoppingCart.png">
-      <PackagePath>Resources\Icons\ShoppingCart.png</PackagePath>
-      <Modified>2018-11-09T09:03:53.664</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\Resources\Images\Burger.png">
-      <PackagePath>Resources\Images\Burger.png</PackagePath>
-      <Modified>2018-11-10T11:42:18.242</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-11-08T08:32:33.847</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\Resources\Font\clementine sketch.ttf">
-      <PackagePath>Resources\Font\clementine sketch.ttf</PackagePath>
-      <Modified>2008-07-23T16:03:18.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\bin\x86\Debug\Mobile.UWP.xr.xml">
       <PackagePath>Mobile.UWP.xr.xml</PackagePath>
@@ -916,11 +876,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-11-21T11:40:09.829</Modified>
+      <Modified>2018-12-14T20:10:01.609</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-11-21T11:40:09.831</Modified>
+      <Modified>2018-12-14T20:10:01.610</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -977,11 +937,11 @@
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-21T11:40:14.411</Modified>
+      <Modified>2018-12-14T20:10:06.949</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\bin\x86\Debug\Core\Mobile.UWP.exe">
       <PackagePath>Mobile.UWP.exe</PackagePath>
-      <Modified>2018-11-21T11:40:16.576</Modified>
+      <Modified>2018-12-14T20:10:08.066</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

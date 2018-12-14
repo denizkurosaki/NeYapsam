@@ -15,32 +15,62 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Food.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Ingredient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)View\Settings.xaml.cs">
+      <DependentUpon>Settings.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)View\SignIn.xaml.cs">
+      <DependentUpon>SignIn.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)View\User.xaml.cs">
+      <DependentUpon>User.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)View\YemekListesi.xaml.cs">
       <DependentUpon>YemekListesi.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)Model\" />
     <Folder Include="$(MSBuildThisFileDirectory)Controller\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)Burger.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\Font\clementine sketch.ttf" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\Icons\ArrowBack.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\Icons\Check.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\Icons\ArrowRight.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\Icons\Close.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\Icons\Profile.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\Icons\Info.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\Icons\Menu.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\Icons\Search.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\Icons\Settings.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\Icons\ShoppingCart.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\Images\Burger.png" />
+    <Content Include="$(MSBuildThisFileDirectory)profile.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)View\YemekListesi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)View\LoginPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)View\User.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)View\SignIn.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)View\Settings.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

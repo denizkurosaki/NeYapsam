@@ -4,7 +4,7 @@
              x:Class="Mobile.View.YemekListesi">
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Profile" Order="Primary">
+        <ToolbarItem Text="Profile" Order="Primary" Clicked="ProfileEvent">
             <ToolbarItem.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource">
                     <On Platform="UWP" Value="Profile.png"/>
@@ -12,11 +12,11 @@
                 </OnPlatform>
             </ToolbarItem.Icon>
         </ToolbarItem>
-        <ToolbarItem Text="Settings" Order="Primary">
+        <ToolbarItem Text="Settings" Order="Primary" Clicked="SettingsEvent">
             <ToolbarItem.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="UWP" Value="Settings.png"/>
-                    <On Platform="Android" Value="Settings.png"/>
+                    <On Platform="UWP" Value=""/>
+                    <On Platform="Android" Value=""/>
                 </OnPlatform>
             </ToolbarItem.Icon>
         </ToolbarItem>

@@ -55,3 +55,4 @@ C:\Projects\NeYapsam\Mobile\Mobile\Mobile.iOS\obj\iPhone\Debug\Mobile.iOS.csproj
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.iOS\obj\iPhone\Debug\Mobile.iOS.exe
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.iOS\obj\iPhone\Debug\Mobile.iOS.pdb
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.iOS\obj\iPhone\Debug\View\YemekListesi.xaml.g.cs
+C:\Projects\NeYapsam\Mobile\Mobile\Mobile.iOS\bin\iPhone\Debug\Parse.iOS.dll

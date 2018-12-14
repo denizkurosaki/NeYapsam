@@ -3,5 +3,6 @@
   <PropertyGroup>
     <SelectedDevice>android_marshmallow</SelectedDevice>
     <DefaultDevice>android_marshmallow</DefaultDevice>
+    <AndroidDesignerPreferredTheme>Theme.DeviceDefault.NoActionBar.Fullscreen</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>

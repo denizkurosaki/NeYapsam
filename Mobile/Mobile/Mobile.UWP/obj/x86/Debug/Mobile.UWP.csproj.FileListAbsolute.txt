@@ -298,3 +298,9 @@ C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\obj\x86\Debug\MultipleQualifiersPe
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\obj\x86\Debug\ProjectArchitectures.txt
 C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\obj\x86\Debug\View\YemekListesi.xaml.g.cs
+C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\bin\x86\Debug\Parse.WinRT.dll
+C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\bin\x86\Debug\Parse.dll
+C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\obj\x86\Debug\View\LoginPage.xaml.g.cs
+C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\obj\x86\Debug\View\User.xaml.g.cs
+C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\obj\x86\Debug\View\SignIn.xaml.g.cs
+C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\obj\x86\Debug\View\Settings.xaml.g.cs

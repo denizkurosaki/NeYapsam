@@ -12,40 +12,43 @@
     <Jar>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\17\jl\bin\classes.jar</Jar>
     <Jar>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\18\jl\bin\classes.jar</Jar>
     <Jar>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\19\jl\bin\classes.jar</Jar>
-    <Jar>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\2\jl\arch-core-common.jar</Jar>
     <Jar>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\20\jl\bin\classes.jar</Jar>
-    <Jar>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\3\jl\arch-lifecycle-common.jar</Jar>
-    <Jar>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\4\jl\bin\classes.jar</Jar>
+    <Jar>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\21\jl\bin\classes.jar</Jar>
+    <Jar>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\3\jl\arch-core-common.jar</Jar>
+    <Jar>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\4\jl\arch-lifecycle-common.jar</Jar>
     <Jar>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\5\jl\bin\classes.jar</Jar>
-    <Jar>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\6\jl\support-annotations.jar</Jar>
-    <Jar>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\7\jl\bin\classes.jar</Jar>
+    <Jar>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\6\jl\bin\classes.jar</Jar>
+    <Jar>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\7\jl\support-annotations.jar</Jar>
     <Jar>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\8\jl\bin\classes.jar</Jar>
     <Jar>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\9\jl\bin\classes.jar</Jar>
   </Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\7\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\10\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\12\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\1\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\8\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\11\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\13\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\14\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\15\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\16\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\17\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\19\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\18\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\20\jl\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
-    <ResolvedAssetDirectory>obj\\Debug\MonoAndroid81\lp\14\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\\Debug\MonoAndroid81\lp\1\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\\Debug\MonoAndroid81\lp\15\jl\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\7.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\10.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\12.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\1.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\8.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\11.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\13.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\14.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\15.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\16.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\17.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\19.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\18.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Projects\NeYapsam\Mobile\Mobile\Mobile.Android\obj\Debug\MonoAndroid81\lp\20.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

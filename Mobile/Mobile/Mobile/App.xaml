@@ -7,5 +7,8 @@
             <Setter Property="WidthRequest" Value="100" />
             <Setter Property="HeightRequest" Value="100" />
         </Style>
+        <Style Class="Add" TargetType="Image">
+            
+        </Style>
     </Application.Resources>
 </Application>
