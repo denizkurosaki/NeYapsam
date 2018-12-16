@@ -94,7 +94,14 @@
     <Folder Include="Resources\drawable-xxxhdpi\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\drawable\Add.png" />
     <Content Include="Resources\drawable\Burger.png" />
+    <Content Include="Resources\drawable\carrot.png" />
+    <Content Include="Resources\drawable\cheese.png" />
+    <Content Include="Resources\drawable\flour.png" />
+    <Content Include="Resources\drawable\garlic.png" />
+    <Content Include="Resources\drawable\lemon.png" />
+    <Content Include="Resources\drawable\onion.png" />
     <Content Include="Resources\drawable\Profile.png" />
     <Content Include="Resources\drawable\Settings.png" />
   </ItemGroup>

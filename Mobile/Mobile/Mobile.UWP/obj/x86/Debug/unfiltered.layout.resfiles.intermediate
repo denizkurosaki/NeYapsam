@@ -1,4 +1,5 @@
 WinMetadata\Windows.winmd
+Add.png
 Assets\LargeTile.scale-100.png
 Assets\LargeTile.scale-200.png
 Assets\LargeTile.scale-400.png
@@ -30,9 +31,16 @@ App.xbf
 MainPage.xbf
 Mobile.UWP.xr.xml
 Burger.png
+carrot.png
+cheese.png
+flour.png
+garlic.png
+lemon.png
+onion.png
 Profile.png
 Properties\Default.rd.xml
 Settings.png
+Add.png
 Burger.png
 profile.png
 Settings.png

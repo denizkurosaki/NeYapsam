@@ -15,14 +15,14 @@
         <ToolbarItem Text="Settings" Order="Primary" Clicked="SettingsEvent">
             <ToolbarItem.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="UWP" Value="Setting.png"/>
+                    <On Platform="UWP" Value="Settings.png"/>
                     <On Platform="Android" Value="Settings.png"/>
                 </OnPlatform>
             </ToolbarItem.Icon>
         </ToolbarItem>
     </ContentPage.ToolbarItems>
 
-    <ScrollView Padding="10, 0, 10, 0">
+    <ScrollView Padding="10, 0, 10, 0" HorizontalOptions="CenterAndExpand">
         <ListView x:Name="MyListView"
                 ItemsSource="{Binding Items}"
                 ItemTapped="Handle_ItemTapped"
@@ -44,9 +44,8 @@
                         <StackLayout>
                             <Image Source="Burger.png" class="CellImage" />
                         </StackLayout>
-                        <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
-                            <Label HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Start" Text="{Binding .}" FontSize="Large"/>
-                            <Label HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" Text="text2" FontSize="Small"/>
+                        <StackLayout HorizontalOptions="Center" MinimumWidthRequest="400">
+                                <Label HorizontalTextAlignment="Center" Text="{Binding .}" FontSize="Large"/>
                         </StackLayout>
                     </StackLayout>
                 </ViewCell>

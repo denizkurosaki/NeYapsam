@@ -17,6 +17,10 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Model\Food.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Ingredient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\AddItemPage.xaml.cs">
+      <DependentUpon>AddItemPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)View\LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -42,7 +46,14 @@
     <Folder Include="$(MSBuildThisFileDirectory)Controller\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Add.png" />
     <Content Include="$(MSBuildThisFileDirectory)Burger.png" />
+    <Content Include="$(MSBuildThisFileDirectory)carrot.png" />
+    <Content Include="$(MSBuildThisFileDirectory)cheese.png" />
+    <Content Include="$(MSBuildThisFileDirectory)flour.png" />
+    <Content Include="$(MSBuildThisFileDirectory)garlic.png" />
+    <Content Include="$(MSBuildThisFileDirectory)lemon.png" />
+    <Content Include="$(MSBuildThisFileDirectory)onion.png" />
     <Content Include="$(MSBuildThisFileDirectory)profile.png" />
     <Content Include="$(MSBuildThisFileDirectory)Settings.png" />
   </ItemGroup>
@@ -72,6 +83,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)View\Settings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)View\AddItemPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

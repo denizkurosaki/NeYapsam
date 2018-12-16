@@ -36,14 +36,19 @@ namespace Mobile.View
 
         private async void ProfileEvent(object sender, System.EventArgs e)
         {
-            Navigation.InsertPageBefore(new LoginPage(),this);
-            await Navigation.PopAsync();
+            if(App.Login)
+            {
+                await Navigation.PushAsync(new User());
+            }
+            else
+            {
+                await Navigation.PushAsync(new LoginPage());
+            }
         }
 
         private async void SettingsEvent(object sender, System.EventArgs e)
         {
-            Navigation.InsertPageBefore(new Settings(), this);
-            await Navigation.PopAsync();
+            await Navigation.PushAsync(new Settings());
         }
     }
 }

@@ -15,11 +15,12 @@ namespace Mobile.View
 		public LoginPage ()
 		{
             NavigationPage.SetHasBackButton(this,true);
-			InitializeComponent ();
+            InitializeComponent ();
 		}
 
         private async void LoginEvent(object sender, System.EventArgs e)
         {
+            App.Login = true;
             await Navigation.PopAsync();
         }
     }

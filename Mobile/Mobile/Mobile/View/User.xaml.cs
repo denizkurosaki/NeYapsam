@@ -18,10 +18,14 @@ namespace Mobile.View
 			InitializeComponent ();
 		}
 
-        private void Login_Clicked(object sender, EventArgs e)
+        private async void SettingsEvent(object sender, System.EventArgs e)
         {
-            //var query = from User in ParseObject.GetQuery("username") where true select User;
-            //IEnumerable<ParseObject> results = await query.FindAsync();
+            await Navigation.PushAsync(new Settings());
+        }
+
+        private async void AddNewItem(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new AddItemPage());
         }
     }
 }
