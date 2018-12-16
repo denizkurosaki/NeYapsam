@@ -16,7 +16,7 @@
             <ToolbarItem.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource">
                     <On Platform="UWP" Value="Setting.png"/>
-                    <On Platform="Android" Value="Setting.png"/>
+                    <On Platform="Android" Value="Settings.png"/>
                 </OnPlatform>
             </ToolbarItem.Icon>
         </ToolbarItem>
