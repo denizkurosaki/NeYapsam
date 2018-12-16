@@ -14,7 +14,6 @@ namespace Mobile.View
 	{
 		public LoginPage ()
 		{
-            NavigationPage.SetHasBackButton(this,true);
             InitializeComponent ();
 		}
 
@@ -22,6 +21,17 @@ namespace Mobile.View
         {
             App.Login = true;
             await Navigation.PopAsync();
+        }
+
+        private async void SignInEvent(object sender, EventArgs e)
+        {
+            Navigation.InsertPageBefore(new SignIn(),this);
+            await Navigation.PopAsync();
+        }
+
+        private async void SettingsEvent(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new Settings());
         }
     }
 }

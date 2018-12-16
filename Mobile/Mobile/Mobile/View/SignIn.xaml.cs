@@ -16,5 +16,16 @@ namespace Mobile.View
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private async void SignInEvent(object sender, EventArgs e)
+        {
+            App.Login = true;
+            await Navigation.PopAsync();
+        }
+
+        private async void SettingsEvent(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new Settings());
+        }
+    }
 }

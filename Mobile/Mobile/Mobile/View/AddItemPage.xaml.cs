@@ -19,7 +19,7 @@ namespace Mobile.View
 
         private async void AddNewItem(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new Settings());
+            await DisplayAlert("Eklendi", "Listeden bir öğe eklediniz", "Tamam");
         }
         
     }

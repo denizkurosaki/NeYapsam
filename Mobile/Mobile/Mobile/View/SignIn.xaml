@@ -2,7 +2,46 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Mobile.View.SignIn">
+    <ContentPage.Resources>
+        <Style TargetType="Entry">
+            <Setter Property="Margin" Value="10"/>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="VerticalTextAlignment" Value="Center"/>
+            <Setter Property="HorizontalTextAlignment" Value="Center"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Settings" Order="Primary" Clicked="SettingsEvent">
+            <ToolbarItem.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="UWP" Value="Settings.png"/>
+                    <On Platform="Android" Value="Settings.png"/>
+                </OnPlatform>
+            </ToolbarItem.Icon>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+
     <ContentPage.Content>
-        <StackLayout/>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Padding="10">
+            <Image HorizontalOptions="Center" Source="AddProfile.png"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Username:" Grid.Row="0" Grid.Column="0"/>
+                <Entry x:Name="usernameEntry" Grid.Row="0" Grid.Column="1" Placeholder="Username"/>
+                <Label Text="Email:" Grid.Row="1" Grid.Column="0"/>
+                <Entry x:Name="addressEntry" Grid.Row="1" Grid.Column="1" Placeholder="Email address" />
+                <Label Text="Password:" Grid.Row="2" Grid.Column="0" />
+                <Entry x:Name="passwordEntry" Grid.Row="2" Grid.Column="1" Placeholder="Password" IsPassword="true" />
+            </Grid>
+            <StackLayout HorizontalOptions="Center" Orientation="Horizontal" Padding="10">
+                <Button Margin="20" FontSize="Medium" Text="SIGN IN" Clicked="SignInEvent"/>
+            </StackLayout>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

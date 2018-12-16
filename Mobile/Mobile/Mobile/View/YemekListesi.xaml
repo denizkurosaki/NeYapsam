@@ -22,7 +22,7 @@
         </ToolbarItem>
     </ContentPage.ToolbarItems>
 
-    <ScrollView Padding="10, 0, 10, 0" HorizontalOptions="CenterAndExpand">
+    <ScrollView HorizontalOptions="FillAndExpand">
         <ListView x:Name="MyListView"
                 ItemsSource="{Binding Items}"
                 ItemTapped="Handle_ItemTapped"
@@ -39,11 +39,11 @@
             
         <ListView.ItemTemplate>
             <DataTemplate>
-                <ViewCell Height="40">
+                <ViewCell>
                     <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
                         <StackLayout>
-                            <Image Source="Burger.png" class="CellImage" />
-                        </StackLayout>
+                                <Image Source="Burger.png" class="CellImage" />
+                            </StackLayout>
                         <StackLayout HorizontalOptions="Center" MinimumWidthRequest="400">
                                 <Label HorizontalTextAlignment="Center" Text="{Binding .}" FontSize="Large"/>
                         </StackLayout>

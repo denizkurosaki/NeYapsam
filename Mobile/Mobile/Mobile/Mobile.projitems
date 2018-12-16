@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)Add.png" />
+    <Content Include="$(MSBuildThisFileDirectory)AddProfile.png" />
     <Content Include="$(MSBuildThisFileDirectory)Burger.png" />
     <Content Include="$(MSBuildThisFileDirectory)carrot.png" />
     <Content Include="$(MSBuildThisFileDirectory)cheese.png" />

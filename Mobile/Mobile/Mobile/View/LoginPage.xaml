@@ -2,6 +2,18 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Mobile.View.LoginPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Settings" Order="Primary" Clicked="SettingsEvent">
+            <ToolbarItem.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="UWP" Value="Settings.png"/>
+                    <On Platform="Android" Value="Settings.png"/>
+                </OnPlatform>
+            </ToolbarItem.Icon>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
             <Image HorizontalOptions="Center" Source="Profile.png"/>
@@ -16,8 +28,9 @@
                 <Label Text="Password:" Grid.Row="1" Grid.Column="0" />
                 <Entry x:Name="passwordEntry" Grid.Row="1" Grid.Column="1" Placeholder="Password" IsPassword="true" />
             </Grid>
-            <StackLayout HorizontalOptions="Center">
-                <Button FontSize="Medium" HorizontalOptions="FillAndExpand" Text="LOGIN" Clicked="LoginEvent" />
+            <StackLayout HorizontalOptions="Center" Orientation="Horizontal" Padding="10">
+                <Button Margin="20" FontSize="Medium" Text="LOGIN" Clicked="LoginEvent" />
+                <Button Margin="20" FontSize="Medium" Text="SIGN IN" Clicked="SignInEvent"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
