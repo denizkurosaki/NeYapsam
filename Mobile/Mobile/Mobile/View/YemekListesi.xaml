@@ -15,8 +15,8 @@
         <ToolbarItem Text="Settings" Order="Primary" Clicked="SettingsEvent">
             <ToolbarItem.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="UWP" Value=""/>
-                    <On Platform="Android" Value=""/>
+                    <On Platform="UWP" Value="Setting.png"/>
+                    <On Platform="Android" Value="Setting.png"/>
                 </OnPlatform>
             </ToolbarItem.Icon>
         </ToolbarItem>

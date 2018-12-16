@@ -44,6 +44,7 @@
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)Burger.png" />
     <Content Include="$(MSBuildThisFileDirectory)profile.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Settings.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)View\YemekListesi.xaml">
