@@ -2,12 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Mobile.View.User">
-    <ContentPage.Resources>
-        <Style TargetType="StackLayout">
-            <Setter Property="VerticalOptions" Value="Center"/>
-            <Setter Property="HorizontalOptions" Value="Center"/>
-        </Style>
-    </ContentPage.Resources>
+    
     
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Profile" Order="Primary">
@@ -30,7 +25,7 @@
     </ContentPage.ToolbarItems>
     
     <ContentPage.Content>
-        <Grid Margin="20">
+        <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
@@ -47,8 +42,8 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <StackLayout Grid.Column="0" Grid.Row="0">
-                <Image Source="Add.png">
+            <StackLayout Grid.Column="0" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Margin="25">
+                <Image Source="Add.png" HeightRequest="150" WidthRequest="150" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="AddNewItem" NumberOfTapsRequired="1"/>
                         </Image.GestureRecognizers>

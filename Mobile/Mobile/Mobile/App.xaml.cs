@@ -20,7 +20,7 @@ namespace Mobile
                 WindowsKey = "MfIzx6plQ2cQxQTcqYUY9eHtsMyQWsedSSeqRb1h",
                 Server = "https://parseapi.back4app.com/"
             });
-            MainPage = new NavigationPage(new YemekListesi());
+            MainPage = new NavigationPage(new FoodList());
         }
 
         protected override void OnStart()

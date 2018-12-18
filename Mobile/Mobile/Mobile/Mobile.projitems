@@ -15,10 +15,17 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Controller\Card.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controller\Content.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controller\FormContent.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Food.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Ingredient.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)View\AddItemPage.xaml.cs">
       <DependentUpon>AddItemPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)View\FoodList.xaml.cs">
+      <DependentUpon>FoodList.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)View\LoginPage.xaml.cs">
@@ -37,13 +44,6 @@
       <DependentUpon>User.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)View\YemekListesi.xaml.cs">
-      <DependentUpon>YemekListesi.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)Controller\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)Add.png" />
@@ -57,12 +57,6 @@
     <Content Include="$(MSBuildThisFileDirectory)onion.png" />
     <Content Include="$(MSBuildThisFileDirectory)profile.png" />
     <Content Include="$(MSBuildThisFileDirectory)Settings.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)View\YemekListesi.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)View\LoginPage.xaml">
@@ -90,6 +84,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)View\AddItemPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)View\FoodList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
