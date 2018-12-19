@@ -105,6 +105,7 @@
   <ItemGroup>
     <Content Include="Add.png" />
     <Content Include="AddProfile.png" />
+    <Content Include="apple.png" />
     <Content Include="Assets\LargeTile.scale-100.png" />
     <Content Include="Assets\LargeTile.scale-200.png" />
     <Content Include="Assets\LargeTile.scale-400.png" />
@@ -132,16 +133,38 @@
     <Content Include="Assets\Wide310x150Logo.scale-100.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
-    <Content Include="Burger.png" />
+    <Content Include="bread.png" />
+    <Content Include="butter.png" />
     <Content Include="carrot.png" />
     <Content Include="cheese.png" />
+    <Content Include="chicken.png" />
+    <Content Include="chilli.png" />
+    <Content Include="creme-caramel.png" />
+    <Content Include="egg.png" />
+    <Content Include="eggplant.png" />
+    <Content Include="fish.png" />
     <Content Include="flour.png" />
     <Content Include="garlic.png" />
+    <Content Include="hazelnut.png" />
     <Content Include="lemon.png" />
+    <Content Include="Lunch.png" />
+    <Content Include="meal.png" />
+    <Content Include="meat.png" />
+    <Content Include="oil.png" />
     <Content Include="onion.png" />
+    <Content Include="pasta.png" />
+    <Content Include="pepper.png" />
+    <Content Include="potato.png" />
     <Content Include="Profile.png" />
     <Content Include="Properties\Default.rd.xml" />
+    <Content Include="salad.png" />
+    <Content Include="salt.png" />
     <Content Include="Settings.png" />
+    <Content Include="soup.png" />
+    <Content Include="starving.png" />
+    <Content Include="tomato.png" />
+    <Content Include="walnut.png" />
+    <Content Include="yogurt.png" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Mobile.Model;
 using Xamarin.Forms;
-using static Xamarin.Forms.Grid;
 
 namespace Mobile.Controller
 {
     class Content : ScrollView
     {
-        public Content(List<Card> items)
+        public Content(List<IngredientCard> items)
         {
             Grid content = new Grid
             {
@@ -16,6 +16,8 @@ namespace Mobile.Controller
                     {
                         new ColumnDefinition(),new ColumnDefinition()
                     }
+                ,
+                Padding = 20
             };
 
             int integer = 0;
@@ -26,6 +28,28 @@ namespace Mobile.Controller
             });
             Content = content;
         }
-        
+
+        public Content(List<FoodCard> items)
+        {
+            Grid content = new Grid
+            {
+                RowDefinitions =
+                {
+                    new RowDefinition(),new RowDefinition(),
+                    new RowDefinition(),new RowDefinition(),
+                    new RowDefinition(),
+                },
+                HeightRequest = 300,
+                Padding = 20
+            };
+
+            int integer = 0;
+            items.ForEach(i =>
+            {
+                content.Children.Add(i, 0, integer);
+                integer++;
+            });
+            Content = content;
+        }
     }
 }

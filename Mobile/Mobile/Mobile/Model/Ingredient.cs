@@ -4,7 +4,10 @@ using System.Text;
 
 namespace Mobile.Model
 {
-    class Ingredient
+    public class Ingredient
     {
+        public Int16 ID { get; set; }
+        public String Name { get; set; }
+        public String Image { get; set; }
     }
 }

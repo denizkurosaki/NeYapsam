@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Mobile.Controller;
+using Mobile.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,12 +17,13 @@ namespace Mobile.View
 		public AddItemPage ()
 		{
 			InitializeComponent ();
+            List<IngredientCard> ingredients = new List<IngredientCard>();
+            foreach(Ingredient i in Ingredients.ing)
+            {
+                ingredients.Add(new IngredientCard(i));
+            }
+            Content = new Content(ingredients);
 		}
 
-        private async void AddNewItem(object sender, System.EventArgs e)
-        {
-            await DisplayAlert("Eklendi", "Listeden bir öğe eklediniz", "Tamam");
-        }
-        
     }
 }

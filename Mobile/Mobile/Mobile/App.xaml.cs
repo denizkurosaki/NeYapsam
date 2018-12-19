@@ -3,13 +3,14 @@ using Xamarin.Forms;
 using Mobile.View;
 using Xamarin.Forms.Xaml;
 using Parse;
+using Mobile.Model;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Mobile
 {
     public partial class App : Application
     {
-        static public bool Login=false;
+        static public UserInfo Login;
 
         public App()
         {

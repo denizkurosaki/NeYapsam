@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mobile.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,14 +20,19 @@ namespace Mobile.View
 
         private async void LoginEvent(object sender, System.EventArgs e)
         {
-            App.Login = true;
-            await Navigation.PopAsync();
+            if(Acounts.users.Any(u => u.Name == usernameEntry.Text && u.Pass == passwordEntry.Text))
+            {
+                App.Login = Acounts.users.Find(u => u.Name == usernameEntry.Text && u.Pass == passwordEntry.Text);
+                await Navigation.PopAsync();
+            }
+                
+            else
+                await DisplayAlert("Hata", "İsim veya şifre hatalı", "Tamam");
         }
 
         private async void SignInEvent(object sender, EventArgs e)
         {
-            Navigation.InsertPageBefore(new SignIn(),this);
-            await Navigation.PopAsync();
+            await Navigation.PushAsync(new SignIn());
         }
 
         private async void SettingsEvent(object sender, System.EventArgs e)

@@ -7,19 +7,11 @@ namespace Mobile.Model
 {
     class Food
     {
-        public static List<string> FoodNames = new List<string>
-        { "Omlet" , "Mercimek" , "Gözleme" , "Menemen"};
+        public Int16 ID { get; set; }
+        public String Label { get; set; }
+        public String Image { get; set; }
+        public String Calorie { get; set; }
 
-        public Food()
-        {
-            initAsync();
-        }
-
-        private async System.Threading.Tasks.Task initAsync()
-        {
-            var query = from Food in ParseObject.GetQuery("food_name") where true select Food;
-            IEnumerable<ParseObject> results = await query.FindAsync();
-            
-        }
+        public List<Ingredient> ingredients;
     }
 }

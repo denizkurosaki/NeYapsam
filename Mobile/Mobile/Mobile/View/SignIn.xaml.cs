@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mobile.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,13 +20,28 @@ namespace Mobile.View
 
         private async void SignInEvent(object sender, EventArgs e)
         {
-            App.Login = true;
-            await Navigation.PopAsync();
+            UserInfo user = new UserInfo();
+            user.Name = usernameEntry.Text;
+            user.Pass = passwordEntry.Text;
+            user.Email = addressEntry.Text;
+            if(AreDetailsValid(user))
+            {
+                App.Login = user;
+                Acounts.users.Add(user);
+                await Navigation.PopToRootAsync();
+            }
+            else
+                await DisplayAlert("Hata", "İsim, şifre veya Email adresi formata uygun değildir", "Tamam");
         }
 
         private async void SettingsEvent(object sender, System.EventArgs e)
         {
             await Navigation.PushAsync(new Settings());
+        }
+
+        bool AreDetailsValid(UserInfo user)
+        {
+            return (!string.IsNullOrWhiteSpace(user.Name) && !string.IsNullOrWhiteSpace(user.Pass) && !string.IsNullOrWhiteSpace(user.Email) && user.Email.Contains("@"));
         }
     }
 }

@@ -15,11 +15,16 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Controller\Card.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controller\FoodCard.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controller\ICard.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controller\IngredientCard.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controller\Content.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Controller\FormContent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Acounts.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Food.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Foods.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Ingredient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Ingredients.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\UserInfo.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)View\AddItemPage.xaml.cs">
       <DependentUpon>AddItemPage.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -44,19 +49,6 @@
       <DependentUpon>User.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="$(MSBuildThisFileDirectory)Add.png" />
-    <Content Include="$(MSBuildThisFileDirectory)AddProfile.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Burger.png" />
-    <Content Include="$(MSBuildThisFileDirectory)carrot.png" />
-    <Content Include="$(MSBuildThisFileDirectory)cheese.png" />
-    <Content Include="$(MSBuildThisFileDirectory)flour.png" />
-    <Content Include="$(MSBuildThisFileDirectory)garlic.png" />
-    <Content Include="$(MSBuildThisFileDirectory)lemon.png" />
-    <Content Include="$(MSBuildThisFileDirectory)onion.png" />
-    <Content Include="$(MSBuildThisFileDirectory)profile.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Settings.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)View\LoginPage.xaml">
@@ -93,5 +85,44 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Add.png" />
+    <Content Include="$(MSBuildThisFileDirectory)AddProfile.png" />
+    <Content Include="$(MSBuildThisFileDirectory)apple.png" />
+    <Content Include="$(MSBuildThisFileDirectory)beans.png" />
+    <Content Include="$(MSBuildThisFileDirectory)bread.png" />
+    <Content Include="$(MSBuildThisFileDirectory)butter.png" />
+    <Content Include="$(MSBuildThisFileDirectory)carrot.png" />
+    <Content Include="$(MSBuildThisFileDirectory)cheese.png" />
+    <Content Include="$(MSBuildThisFileDirectory)chicken.png" />
+    <Content Include="$(MSBuildThisFileDirectory)chilli.png" />
+    <Content Include="$(MSBuildThisFileDirectory)creme-caramel.png" />
+    <Content Include="$(MSBuildThisFileDirectory)egg.png" />
+    <Content Include="$(MSBuildThisFileDirectory)eggplant.png" />
+    <Content Include="$(MSBuildThisFileDirectory)fish.png" />
+    <Content Include="$(MSBuildThisFileDirectory)flour.png" />
+    <Content Include="$(MSBuildThisFileDirectory)garlic.png" />
+    <Content Include="$(MSBuildThisFileDirectory)hazelnut.png" />
+    <Content Include="$(MSBuildThisFileDirectory)lemon.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Lunch.png" />
+    <Content Include="$(MSBuildThisFileDirectory)meal.png" />
+    <Content Include="$(MSBuildThisFileDirectory)meat.png" />
+    <Content Include="$(MSBuildThisFileDirectory)oil.png" />
+    <Content Include="$(MSBuildThisFileDirectory)onion.png" />
+    <Content Include="$(MSBuildThisFileDirectory)pasta.png" />
+    <Content Include="$(MSBuildThisFileDirectory)pepper.png" />
+    <Content Include="$(MSBuildThisFileDirectory)potato.png" />
+    <Content Include="$(MSBuildThisFileDirectory)profile.png" />
+    <Content Include="$(MSBuildThisFileDirectory)rice.png" />
+    <Content Include="$(MSBuildThisFileDirectory)salad.png" />
+    <Content Include="$(MSBuildThisFileDirectory)salt.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Settings.png" />
+    <Content Include="$(MSBuildThisFileDirectory)soup.png" />
+    <Content Include="$(MSBuildThisFileDirectory)starving.png" />
+    <Content Include="$(MSBuildThisFileDirectory)taco.png" />
+    <Content Include="$(MSBuildThisFileDirectory)tomato.png" />
+    <Content Include="$(MSBuildThisFileDirectory)walnut.png" />
+    <Content Include="$(MSBuildThisFileDirectory)yogurt.png" />
   </ItemGroup>
 </Project>
