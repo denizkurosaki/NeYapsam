@@ -23,6 +23,7 @@ namespace Mobile.View
             if(Acounts.users.Any(u => u.Name == usernameEntry.Text && u.Pass == passwordEntry.Text))
             {
                 App.Login = Acounts.users.Find(u => u.Name == usernameEntry.Text && u.Pass == passwordEntry.Text);
+                App.update();
                 await Navigation.PopAsync();
             }
                 

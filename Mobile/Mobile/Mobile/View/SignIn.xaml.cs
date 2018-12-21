@@ -28,6 +28,7 @@ namespace Mobile.View
             {
                 App.Login = user;
                 Acounts.users.Add(user);
+                App.update();
                 await Navigation.PopToRootAsync();
             }
             else

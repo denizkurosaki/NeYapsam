@@ -655,6 +655,9 @@
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\beans.png">
+      <PackagePath>beans.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\bread.png">
       <PackagePath>bread.png</PackagePath>
     </AppxPackagedFile>
@@ -724,6 +727,9 @@
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\Profile.png">
       <PackagePath>Profile.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\rice.png">
+      <PackagePath>rice.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\salad.png">
       <PackagePath>salad.png</PackagePath>
     </AppxPackagedFile>
@@ -747,15 +753,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\yogurt.png">
       <PackagePath>yogurt.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\beans.png">
-      <PackagePath>beans.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\rice.png">
-      <PackagePath>rice.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile\taco.png">
-      <PackagePath>taco.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>

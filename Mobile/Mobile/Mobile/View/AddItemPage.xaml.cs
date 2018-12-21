@@ -20,10 +20,22 @@ namespace Mobile.View
             List<IngredientCard> ingredients = new List<IngredientCard>();
             foreach(Ingredient i in Ingredients.ing)
             {
-                ingredients.Add(new IngredientCard(i));
+                ingredients.Add(new IngredientCard(i,true));
             }
-            Content = new Content(ingredients);
+            Content = new Content(ingredients,false);
 		}
 
+        private async void SettingsEvent(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Settings());
+        }
+
+        private async void LoginEvent(object sender, EventArgs e)
+        {
+            if (App.Login != null)
+                await Navigation.PushAsync(new User());
+            else
+                await Navigation.PushAsync(new LoginPage());
+        }
     }
 }

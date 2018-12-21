@@ -7,12 +7,12 @@ using Xamarin.Forms;
 
 namespace Mobile.Controller
 {
-    class IngredientCard : ICard
+    class IngredientCard : StackLayout
     {
-        public IngredientCard(Ingredient ingredient)
+        public IngredientCard(Ingredient ingredient,bool add)
         {
             Margin = new Thickness(10);
-            BackgroundColor = Color.LightGray;
+            BackgroundColor = App.Login.fridge.Contains(ingredient) && add ? Color.Gray : Color.LightGray;
             Orientation = StackOrientation.Vertical;
 
             Image icon = new Image();
@@ -21,8 +21,12 @@ namespace Mobile.Controller
             var iconTap = new TapGestureRecognizer();
             iconTap.Tapped += (object sender, EventArgs e) =>
             {
-                App.Login.fridge.Add(ingredient);
-
+                if(BackgroundColor == Color.LightGray && add)
+                {
+                    App.Login.fridge.Add(ingredient);
+                    BackgroundColor = Color.Gray;
+                    App.update();
+                }
             };
             icon.GestureRecognizers.Add(iconTap);
             

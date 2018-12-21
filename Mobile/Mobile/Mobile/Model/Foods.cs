@@ -13,7 +13,7 @@ namespace Mobile.Model
 
             new Food{ID = 2,    Image = "meal.png",    Label = "Menemen",    Calorie = "177 kcal"
             ,ingredients = new List<Ingredient>{ Ingredients.ing[19],Ingredients.ing[14],
-                Ingredients.ing[6], Ingredients.ing[6], } },
+                Ingredients.ing[6], Ingredients.ing[5], } },
 
             new Food{ID = 3,    Image = "meal.png",    Label = "Karnıyarık",    Calorie = "191 kcal"
             ,ingredients = new List<Ingredient>{ Ingredients.ing[23],Ingredients.ing[12] } },
@@ -57,7 +57,8 @@ namespace Mobile.Model
             ,ingredients = new List<Ingredient>{ Ingredients.ing[24],Ingredients.ing[13] } },
 
             new Food{ID = 16,    Image = "meal.png",    Label = "Orman Kebabı",    Calorie = "256 kcal"
-            ,ingredients = new List<Ingredient>{ Ingredients.ing[24],Ingredients.ing[13] } },
+            ,ingredients = new List<Ingredient>{ Ingredients.ing[2],Ingredients.ing[13]
+            ,Ingredients.ing[12] , Ingredients.ing[16] ,Ingredients.ing[14]} },
 
             new Food{ID = 17,    Image = "meal.png",    Label = "Havuç Salatası",    Calorie = "88 kcal"
             ,ingredients = new List<Ingredient>{ Ingredients.ing[2],Ingredients.ing[17], Ingredients.ing[11] } },

@@ -24,32 +24,5 @@
         </ToolbarItem>
     </ContentPage.ToolbarItems>
     
-    <ContentPage.Content>
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-
-            <StackLayout Grid.Column="0" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Margin="25">
-                <Image Source="Add.png" HeightRequest="150" WidthRequest="150" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                        <Image.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="AddNewItem" NumberOfTapsRequired="1"/>
-                        </Image.GestureRecognizers>
-                </Image>
-            </StackLayout>
-
-        </Grid>
-    </ContentPage.Content>
+    
 </ContentPage>

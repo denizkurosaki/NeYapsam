@@ -14,25 +14,19 @@ namespace Mobile.View
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class User : ContentPage
 	{
-		public User ()
+        private List<IngredientCard> ingredients = new List<IngredientCard>();
+
+        public User ()
 		{
             InitializeComponent();
-            List<IngredientCard> ingredients = new List<IngredientCard>();
-            App.Login.fridge.ForEach(element => ingredients.Add(new IngredientCard(element)));
-            ScrollView sv = new Content(ingredients);
-            
-            Content = sv;
-            
+            App.Login.fridge.ForEach(element => ingredients.Add(new IngredientCard(element,false)));
+            Content = new Content(ingredients,true);
         }
 
         private async void SettingsEvent(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new AddItemPage());
+            await Navigation.PushAsync(new Settings());
         }
-
-        private async void AddNewItem(object sender, System.EventArgs e)
-        {
-            await Navigation.PushAsync(new AddItemPage());
-        }
+        
     }
 }

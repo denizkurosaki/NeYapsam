@@ -17,7 +17,7 @@
     </ContentPage.Resources>
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Profile" Order="Primary">
+        <ToolbarItem Text="Profile" Order="Primary" Clicked="LoginEvent">
             <ToolbarItem.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource">
                     <On Platform="UWP" Value="Profile.png"/>
@@ -25,7 +25,7 @@
                 </OnPlatform>
             </ToolbarItem.Icon>
         </ToolbarItem>
-        <ToolbarItem Text="Settings" Order="Primary">
+        <ToolbarItem Text="Settings" Order="Primary" Clicked="SettingsEvent">
             <ToolbarItem.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource">
                     <On Platform="UWP" Value="Settings.png"/>
