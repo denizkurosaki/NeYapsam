@@ -14,8 +14,19 @@ namespace Mobile.View
 	{
 		public Settings ()
 		{
-            NavigationPage.SetHasBackButton(this, true);
             InitializeComponent ();
 		}
-	}
+
+        private void LoginEvent(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new LoginPage());
+        }
+
+        private void LogoutEvent(object sender, EventArgs e)
+        {
+            App.Login = null;
+            App.update();
+            Navigation.PopToRootAsync();
+        }
+    }
 }

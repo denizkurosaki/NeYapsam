@@ -34,6 +34,7 @@ namespace Mobile.Model
             new Ingredient{ID = 24, Name = "Patlıcan",Image = "eggplant.png"},
             new Ingredient{ID = 25, Name = "Pirinç", Image = "rice.png"},
             new Ingredient{ID = 26, Name = "Fasülye",Image = "beans.png"},
+            new Ingredient{ID = 27, Name = "Süt" ,   Image = "milk.png"},
         };
         public List<Ingredient> ingredients = new List<Ingredient>();
         

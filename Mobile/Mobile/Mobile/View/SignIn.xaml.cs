@@ -42,7 +42,8 @@ namespace Mobile.View
 
         bool AreDetailsValid(UserInfo user)
         {
-            return (!string.IsNullOrWhiteSpace(user.Name) && !string.IsNullOrWhiteSpace(user.Pass) && !string.IsNullOrWhiteSpace(user.Email) && user.Email.Contains("@"));
+            return (!string.IsNullOrWhiteSpace(user.Name) && !user.Name.Contains(" ") && !user.Pass.Contains(" ") &&
+                !string.IsNullOrWhiteSpace(user.Pass) && !string.IsNullOrWhiteSpace(user.Email) && user.Email.Contains("@"));
         }
     }
 }

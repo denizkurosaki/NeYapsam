@@ -676,14 +676,17 @@
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\chilli.png">
       <PackagePath>chilli.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\creme-caramel.png">
-      <PackagePath>creme-caramel.png</PackagePath>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\dessert.png">
+      <PackagePath>dessert.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\egg.png">
       <PackagePath>egg.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\eggplant.png">
       <PackagePath>eggplant.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\exit.png">
+      <PackagePath>exit.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\fish.png">
       <PackagePath>fish.png</PackagePath>
@@ -709,6 +712,9 @@
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\meat.png">
       <PackagePath>meat.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\milk.png">
+      <PackagePath>milk.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\oil.png">
       <PackagePath>oil.png</PackagePath>
     </AppxPackagedFile>
@@ -732,6 +738,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\salad.png">
       <PackagePath>salad.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\saladdish.png">
+      <PackagePath>saladdish.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\salt.png">
       <PackagePath>salt.png</PackagePath>

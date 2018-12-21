@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-21T18:25:45.749</Modified>
+      <Modified>2018-12-21T19:26:06.893</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\bin\x86\Debug\Mobile.UWP.exe">
       <PackagePath>entrypoint\Mobile.UWP.exe</PackagePath>
-      <Modified>2018-12-21T18:25:43.708</Modified>
+      <Modified>2018-12-21T19:26:05.657</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fomer\.nuget\packages\parse\1.7.0\lib\netcore45\Parse.WinRT.dll">
       <PackagePath>Parse.WinRT.dll</PackagePath>
@@ -894,8 +894,8 @@
       <PackagePath>chilli.png</PackagePath>
       <Modified>2018-12-18T13:37:10.452</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\creme-caramel.png">
-      <PackagePath>creme-caramel.png</PackagePath>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\dessert.png">
+      <PackagePath>dessert.png</PackagePath>
       <Modified>2018-12-18T21:12:40.887</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\egg.png">
@@ -905,6 +905,10 @@
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\eggplant.png">
       <PackagePath>eggplant.png</PackagePath>
       <Modified>2018-12-18T18:40:46.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\exit.png">
+      <PackagePath>exit.png</PackagePath>
+      <Modified>2018-12-21T18:41:42.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\fish.png">
       <PackagePath>fish.png</PackagePath>
@@ -938,6 +942,10 @@
       <PackagePath>meat.png</PackagePath>
       <Modified>2018-12-18T13:51:32.489</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\milk.png">
+      <PackagePath>milk.png</PackagePath>
+      <Modified>2018-12-21T19:03:23.188</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\oil.png">
       <PackagePath>oil.png</PackagePath>
       <Modified>2018-12-18T13:44:54.482</Modified>
@@ -969,6 +977,10 @@
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\salad.png">
       <PackagePath>salad.png</PackagePath>
       <Modified>2018-12-18T13:58:22.242</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\saladdish.png">
+      <PackagePath>saladdish.png</PackagePath>
+      <Modified>2018-12-21T18:59:04.152</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\salt.png">
       <PackagePath>salt.png</PackagePath>
@@ -1008,11 +1020,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-12-21T18:25:41.857</Modified>
+      <Modified>2018-12-21T19:26:03.836</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-12-21T18:25:41.858</Modified>
+      <Modified>2018-12-21T19:26:03.838</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -1069,11 +1081,11 @@
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-21T14:45:52.414</Modified>
+      <Modified>2018-12-21T19:11:33.539</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\bin\x86\Debug\Core\Mobile.UWP.exe">
       <PackagePath>Mobile.UWP.exe</PackagePath>
-      <Modified>2018-12-21T18:25:45.711</Modified>
+      <Modified>2018-12-21T19:26:06.884</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

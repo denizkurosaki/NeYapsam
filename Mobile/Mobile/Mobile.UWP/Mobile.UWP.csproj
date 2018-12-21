@@ -140,9 +140,10 @@
     <Content Include="cheese.png" />
     <Content Include="chicken.png" />
     <Content Include="chilli.png" />
-    <Content Include="creme-caramel.png" />
+    <Content Include="dessert.png" />
     <Content Include="egg.png" />
     <Content Include="eggplant.png" />
+    <Content Include="exit.png" />
     <Content Include="fish.png" />
     <Content Include="flour.png" />
     <Content Include="garlic.png" />
@@ -151,6 +152,7 @@
     <Content Include="Lunch.png" />
     <Content Include="meal.png" />
     <Content Include="meat.png" />
+    <Content Include="milk.png" />
     <Content Include="oil.png" />
     <Content Include="onion.png" />
     <Content Include="pasta.png" />
@@ -160,6 +162,7 @@
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="rice.png" />
     <Content Include="salad.png" />
+    <Content Include="saladdish.png" />
     <Content Include="salt.png" />
     <Content Include="Settings.png" />
     <Content Include="soup.png" />

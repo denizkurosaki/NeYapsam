@@ -2397,16 +2397,19 @@ namespace Mobile.Droid
 			public const int eggplant = 2130771986;
 			
 			// aapt resource value: 0x7F010013
-			public const int fish = 2130771987;
+			public const int exit = 2130771987;
 			
 			// aapt resource value: 0x7F010014
-			public const int flour = 2130771988;
+			public const int fish = 2130771988;
 			
 			// aapt resource value: 0x7F010015
-			public const int garlic = 2130771989;
+			public const int flour = 2130771989;
 			
 			// aapt resource value: 0x7F010016
-			public const int hazelnut = 2130771990;
+			public const int garlic = 2130771990;
+			
+			// aapt resource value: 0x7F010017
+			public const int hazelnut = 2130771991;
 			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
@@ -2939,11 +2942,11 @@ namespace Mobile.Droid
 			// aapt resource value: 0x7F090104
 			public const int ic_vol_type_tv_light = 2131296516;
 			
-			// aapt resource value: 0x7F010017
-			public const int lemon = 2130771991;
-			
 			// aapt resource value: 0x7F010018
-			public const int meat = 2130771992;
+			public const int lemon = 2130771992;
+			
+			// aapt resource value: 0x7F010019
+			public const int meat = 2130771993;
 			
 			// aapt resource value: 0x7F090105
 			public const int mr_button_connected_dark = 2131296517;
@@ -3044,35 +3047,38 @@ namespace Mobile.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010019
-			public const int oil = 2130771993;
-			
 			// aapt resource value: 0x7F010020
-			public const int onion = 2130772000;
+			public const int oil = 2130772000;
 			
 			// aapt resource value: 0x7F010021
-			public const int pepper = 2130772001;
+			public const int onion = 2130772001;
 			
 			// aapt resource value: 0x7F010022
-			public const int potato = 2130772002;
+			public const int pepper = 2130772002;
 			
 			// aapt resource value: 0x7F010023
-			public const int Profile = 2130772003;
+			public const int potato = 2130772003;
 			
 			// aapt resource value: 0x7F010024
-			public const int salad = 2130772004;
+			public const int Profile = 2130772004;
 			
 			// aapt resource value: 0x7F010025
-			public const int salt = 2130772005;
+			public const int salad = 2130772005;
 			
 			// aapt resource value: 0x7F010026
-			public const int Settings = 2130772006;
+			public const int saladdish = 2130772006;
 			
 			// aapt resource value: 0x7F010027
-			public const int starving = 2130772007;
+			public const int salt = 2130772007;
 			
 			// aapt resource value: 0x7F010028
-			public const int tomato = 2130772008;
+			public const int Settings = 2130772008;
+			
+			// aapt resource value: 0x7F010029
+			public const int starving = 2130772009;
+			
+			// aapt resource value: 0x7F010030
+			public const int tomato = 2130772016;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -3080,11 +3086,11 @@ namespace Mobile.Droid
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F010029
-			public const int walnut = 2130772009;
+			// aapt resource value: 0x7F010031
+			public const int walnut = 2130772017;
 			
-			// aapt resource value: 0x7F010030
-			public const int yogurt = 2130772016;
+			// aapt resource value: 0x7F010032
+			public const int yogurt = 2130772018;
 			
 			static Drawable()
 			{

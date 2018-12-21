@@ -98,11 +98,13 @@
     <Content Include="Resources\drawable\AddProfile.png" />
     <Content Include="Resources\drawable\carrot.png" />
     <Content Include="Resources\drawable\cheese.png" />
+    <Content Include="Resources\drawable\exit.png" />
     <Content Include="Resources\drawable\flour.png" />
     <Content Include="Resources\drawable\garlic.png" />
     <Content Include="Resources\drawable\lemon.png" />
     <Content Include="Resources\drawable\onion.png" />
     <Content Include="Resources\drawable\Profile.png" />
+    <Content Include="Resources\drawable\saladdish.png" />
     <Content Include="Resources\drawable\Settings.png" />
   </ItemGroup>
   <Import Project="..\Mobile\Mobile.projitems" Label="Shared" />

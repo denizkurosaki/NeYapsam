@@ -2,11 +2,34 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Mobile.View.Settings">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Profile" Order="Primary" Clicked="LoginEvent">
+            <ToolbarItem.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="UWP" Value="Profile.png"/>
+                    <On Platform="Android" Value="Profile.png"/>
+                </OnPlatform>
+            </ToolbarItem.Icon>
+        </ToolbarItem>
+
+        <ToolbarItem Text="Settings" Order="Primary">
+            <ToolbarItem.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="UWP" Value="Settings.png"/>
+                    <On Platform="Android" Value="Settings.png"/>
+                </OnPlatform>
+            </ToolbarItem.Icon>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Orientation="Vertical">
+            <Image Source="exit.png">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="LogoutEvent"/>
+                </Image.GestureRecognizers>
+            </Image>
+            <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium" Text="Logout"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

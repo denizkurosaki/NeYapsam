@@ -39,9 +39,10 @@ carrot.png
 cheese.png
 chicken.png
 chilli.png
-creme-caramel.png
+dessert.png
 egg.png
 eggplant.png
+exit.png
 fish.png
 flour.png
 garlic.png
@@ -50,6 +51,7 @@ lemon.png
 Lunch.png
 meal.png
 meat.png
+milk.png
 oil.png
 onion.png
 pasta.png
@@ -59,6 +61,7 @@ Profile.png
 Properties\Default.rd.xml
 rice.png
 salad.png
+saladdish.png
 salt.png
 Settings.png
 soup.png
@@ -68,3 +71,8 @@ walnut.png
 yogurt.png
 Add.png
 beans.png
+dessert.png
+exit.png
+milk.png
+salad.png
+saladdish.png
