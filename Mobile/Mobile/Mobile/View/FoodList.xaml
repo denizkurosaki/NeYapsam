@@ -10,22 +10,7 @@
     </ContentPage.Resources>
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Profile" Order="Primary" Clicked="LoginEvent">
-            <ToolbarItem.Icon>
-                <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="UWP" Value="profile.png"/>
-                    <On Platform="Android" Value="profile.png"/>
-                </OnPlatform>
-            </ToolbarItem.Icon>
-        </ToolbarItem>
-
-        <ToolbarItem Text="Settings" Order="Primary" Clicked="SettingsEvent">
-            <ToolbarItem.Icon>
-                <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="UWP" Value="settings.png"/>
-                    <On Platform="Android" Value="settings.png"/>
-                </OnPlatform>
-            </ToolbarItem.Icon>
-        </ToolbarItem>
+        <ToolbarItem Text="Profile" Order="Primary" Clicked="LoginEvent" Icon="profile.png"/>
+        <ToolbarItem Text="Settings" Order="Primary" Clicked="SettingsEvent" Icon="settings.png"/>
     </ContentPage.ToolbarItems>
 </ContentPage>

@@ -25,7 +25,10 @@ namespace Mobile.View
 
         private async void SettingsEvent(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new Settings());
+            if (Device.RuntimePlatform == Device.Android)
+                await Navigation.PushAsync(new AddItemPage());
+            else
+                await Navigation.PushAsync(new Settings()); ;
         }
         
     }

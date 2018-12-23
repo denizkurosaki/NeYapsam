@@ -17,9 +17,12 @@ namespace Mobile.View
             InitializeComponent ();
 		}
 
-        private void LoginEvent(object sender, EventArgs e)
+        private async void LoginEvent(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new LoginPage());
+            if (App.Login != null)
+                await Navigation.PushAsync(new User());
+            else
+                await Navigation.PushAsync(new LoginPage());
         }
 
         private void LogoutEvent(object sender, EventArgs e)

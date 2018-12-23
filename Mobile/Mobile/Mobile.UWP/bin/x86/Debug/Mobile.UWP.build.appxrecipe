@@ -538,11 +538,11 @@
     <AppxPackagedFile Include="C:\Users\fomer\.nuget\packages\xamarin.forms\3.1.0.697729\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\Add.png">
-      <PackagePath>Add.png</PackagePath>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\add.png">
+      <PackagePath>add.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\AddProfile.png">
-      <PackagePath>AddProfile.png</PackagePath>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\addprofile.png">
+      <PackagePath>addprofile.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\apple.png">
       <PackagePath>apple.png</PackagePath>
@@ -703,9 +703,6 @@
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\lemon.png">
       <PackagePath>lemon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\Lunch.png">
-      <PackagePath>Lunch.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\meal.png">
       <PackagePath>meal.png</PackagePath>
     </AppxPackagedFile>
@@ -730,8 +727,8 @@
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\potato.png">
       <PackagePath>potato.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\Profile.png">
-      <PackagePath>Profile.png</PackagePath>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\profile.png">
+      <PackagePath>profile.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\rice.png">
       <PackagePath>rice.png</PackagePath>
@@ -745,8 +742,8 @@
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\salt.png">
       <PackagePath>salt.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\Settings.png">
-      <PackagePath>Settings.png</PackagePath>
+    <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\settings.png">
+      <PackagePath>settings.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\NeYapsam\Mobile\Mobile\Mobile.UWP\soup.png">
       <PackagePath>soup.png</PackagePath>
