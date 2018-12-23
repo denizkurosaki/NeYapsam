@@ -86,12 +86,8 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="$(MSBuildThisFileDirectory)Add.png" />
-    <Content Include="$(MSBuildThisFileDirectory)beans.png" />
-    <Content Include="$(MSBuildThisFileDirectory)dessert.png" />
-    <Content Include="$(MSBuildThisFileDirectory)exit.png" />
-    <Content Include="$(MSBuildThisFileDirectory)milk.png" />
-    <Content Include="$(MSBuildThisFileDirectory)salad.png" />
-    <Content Include="$(MSBuildThisFileDirectory)saladdish.png" />
+    <Content Include="$(MSBuildThisFileDirectory)add.png" />
+    <Content Include="$(MSBuildThisFileDirectory)addprofile.png" />
+    <Content Include="$(MSBuildThisFileDirectory)settings.png" />
   </ItemGroup>
 </Project>

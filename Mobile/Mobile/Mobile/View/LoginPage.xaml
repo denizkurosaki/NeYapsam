@@ -7,8 +7,8 @@
         <ToolbarItem Text="Settings" Order="Primary" Clicked="SettingsEvent">
             <ToolbarItem.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="UWP" Value="Settings.png"/>
-                    <On Platform="Android" Value="Settings.png"/>
+                    <On Platform="UWP" Value="settings.png"/>
+                    <On Platform="Android" Value="settings.png"/>
                 </OnPlatform>
             </ToolbarItem.Icon>
         </ToolbarItem>
@@ -16,7 +16,7 @@
 
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
-            <Image HorizontalOptions="Center" Source="Profile.png"/>
+            <Image HorizontalOptions="Center" Source="profile.png"/>
             <Grid Margin="20,0,20,0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>

@@ -103,8 +103,8 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Add.png" />
-    <Content Include="AddProfile.png" />
+    <Content Include="add.png" />
+    <Content Include="addprofile.png" />
     <Content Include="apple.png" />
     <Content Include="Assets\LargeTile.scale-100.png" />
     <Content Include="Assets\LargeTile.scale-200.png" />
@@ -149,7 +149,6 @@
     <Content Include="garlic.png" />
     <Content Include="hazelnut.png" />
     <Content Include="lemon.png" />
-    <Content Include="Lunch.png" />
     <Content Include="meal.png" />
     <Content Include="meat.png" />
     <Content Include="milk.png" />
@@ -158,13 +157,13 @@
     <Content Include="pasta.png" />
     <Content Include="pepper.png" />
     <Content Include="potato.png" />
-    <Content Include="Profile.png" />
+    <Content Include="profile.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="rice.png" />
     <Content Include="salad.png" />
     <Content Include="saladdish.png" />
     <Content Include="salt.png" />
-    <Content Include="Settings.png" />
+    <Content Include="settings.png" />
     <Content Include="soup.png" />
     <Content Include="starving.png" />
     <Content Include="tomato.png" />

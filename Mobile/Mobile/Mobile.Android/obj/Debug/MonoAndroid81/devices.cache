@@ -4,4 +4,8 @@
     <ResultingAbi>arm64-v8a</ResultingAbi>
     <SdkVersion>23</SdkVersion>
   </Device>
+  <Device id="emulator-5554">
+    <ResultingAbi>x86</ResultingAbi>
+    <SdkVersion>23</SdkVersion>
+  </Device>
 </Devices>

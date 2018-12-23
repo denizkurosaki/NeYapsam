@@ -33,7 +33,7 @@ namespace Mobile.Controller
             });
 
             Image icon = new Image();
-            icon.Source = ImageSource.FromFile("Add.png");
+            icon.Source = ImageSource.FromFile("add.png");
 
             var iconTap = new TapGestureRecognizer();
             iconTap.Tapped += (object sender, EventArgs e) =>

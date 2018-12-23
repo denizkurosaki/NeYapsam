@@ -6,8 +6,8 @@
         <ToolbarItem Text="Profile" Order="Primary" Clicked="LoginEvent">
             <ToolbarItem.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="UWP" Value="Profile.png"/>
-                    <On Platform="Android" Value="Profile.png"/>
+                    <On Platform="UWP" Value="profile.png"/>
+                    <On Platform="Android" Value="profile.png"/>
                 </OnPlatform>
             </ToolbarItem.Icon>
         </ToolbarItem>
@@ -15,8 +15,8 @@
         <ToolbarItem Text="Settings" Order="Primary">
             <ToolbarItem.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="UWP" Value="Settings.png"/>
-                    <On Platform="Android" Value="Settings.png"/>
+                    <On Platform="UWP" Value="settings.png"/>
+                    <On Platform="Android" Value="settings.png"/>
                 </OnPlatform>
             </ToolbarItem.Icon>
         </ToolbarItem>

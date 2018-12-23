@@ -94,18 +94,45 @@
     <Folder Include="Resources\drawable-xxxhdpi\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\drawable\Add.png" />
-    <Content Include="Resources\drawable\AddProfile.png" />
+    <Content Include="Resources\drawable\add.png" />
+    <Content Include="Resources\drawable\addprofile.png" />
+    <AndroidResource Include="Resources\drawable\apple.png" />
+    <AndroidResource Include="Resources\drawable\beans.png" />
+    <AndroidResource Include="Resources\drawable\bread.png" />
+    <AndroidResource Include="Resources\drawable\butter.png" />
     <Content Include="Resources\drawable\carrot.png" />
     <Content Include="Resources\drawable\cheese.png" />
+    <AndroidResource Include="Resources\drawable\chicken.png" />
+    <AndroidResource Include="Resources\drawable\chilli.png" />
+    <AndroidResource Include="Resources\drawable\dessert.png" />
+    <AndroidResource Include="Resources\drawable\egg.png" />
+    <AndroidResource Include="Resources\drawable\eggplant.png" />
     <Content Include="Resources\drawable\exit.png" />
+    <AndroidResource Include="Resources\drawable\fish.png" />
     <Content Include="Resources\drawable\flour.png" />
     <Content Include="Resources\drawable\garlic.png" />
+    <AndroidResource Include="Resources\drawable\hazelnut.png" />
     <Content Include="Resources\drawable\lemon.png" />
+    <AndroidResource Include="Resources\drawable\meal.png" />
+    <AndroidResource Include="Resources\drawable\meat.png" />
+    <AndroidResource Include="Resources\drawable\milk.png" />
+    <AndroidResource Include="Resources\drawable\oil.png" />
     <Content Include="Resources\drawable\onion.png" />
-    <Content Include="Resources\drawable\Profile.png" />
+    <AndroidResource Include="Resources\drawable\pasta.png" />
+    <AndroidResource Include="Resources\drawable\pepper.png" />
+    <AndroidResource Include="Resources\drawable\potato.png" />
+    <Content Include="Resources\drawable\profile.png" />
+    <AndroidResource Include="Resources\drawable\rice.png" />
+    <AndroidResource Include="Resources\drawable\salad.png" />
     <Content Include="Resources\drawable\saladdish.png" />
-    <Content Include="Resources\drawable\Settings.png" />
+    <AndroidResource Include="Resources\drawable\salt.png" />
+    <Content Include="Resources\drawable\settings.png" />
+    <AndroidResource Include="Resources\drawable\soup.png" />
+    <AndroidResource Include="Resources\drawable\starving.png" />
+    <AndroidResource Include="Resources\drawable\taco.png" />
+    <AndroidResource Include="Resources\drawable\tomato.png" />
+    <AndroidResource Include="Resources\drawable\walnut.png" />
+    <AndroidResource Include="Resources\drawable\yogurt.png" />
   </ItemGroup>
   <Import Project="..\Mobile\Mobile.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
